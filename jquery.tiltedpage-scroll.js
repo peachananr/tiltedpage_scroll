@@ -78,7 +78,7 @@
             if (deg < 0) deg = 0;
           } else {
             opacity = ((el2.parent().offset().top + ($(window).height() * 1.2) - st)) / ($(window).height());	
-            opacity = Math.pow(opacity,4);
+            opacity = Math.pow(opacity,25);
             deg = (el2.parent().offset().top - st) / $(window).height() * (settings.angle * 3);
             scale = ((st + $(window).height() - el2.parent().offset().top ) / ($(window).height() )) ;
           }
