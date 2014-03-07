@@ -1,0 +1,31 @@
+.tps-section {
+  width: 100%;
+  height: 500px;
+  -webkit-perspective: 10em;
+  -moz-perspective: 10em;
+  -ms-perspective: 10em;
+  -o-perspective: 10em;
+  perspective: 10em;
+  -webkit-perspective-origin: center bottom;
+  -moz-perspective-origin: center bottom;
+  -ms-perspective-origin: center bottom;
+  -o-perspective-origin: center bottom;
+  perspective-origin: center bottom;
+  -webkit-perspective-origin: 50% 50%;
+  -moz-perspective-origin: 50% 50%;
+  -ms-perspective-origin: 50% 50%;
+  -o-perspective-origin: 50% 50%;
+  perspective-origin: 50% 50%;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  -o-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+
+.tps-wrapper {
+  float: left;
+  width: 100%;
+  height: 100%;
+}
