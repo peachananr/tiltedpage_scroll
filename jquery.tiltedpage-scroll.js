@@ -65,8 +65,8 @@
         var el2 = $(this),
             opacity = 0,
             st = $(window).scrollTop(),
-            deg = ((el2.parent().offset().top - el2.parent().height()) - st) / $(window).height() * (settings.angle * 3),
-            scale = ((st + $(window).height() - (el2.parent().offset().top - el2.parent().height())) / ($(window).height() )) ;
+            deg = ((el2.parent().offset().top - el2.parent().outerHeight(true)) - st) / $(window).height() * (settings.angle * 3),
+            scale = ((st + $(window).height() - (el2.parent().offset().top - el2.parent().outerHeight(true))) / ($(window).height() )) ;
             if(scale > 1) scale = 1;
             if(deg < 0) deg = 0;
             
